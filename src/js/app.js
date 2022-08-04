@@ -1,9 +1,9 @@
-import Chat from './chat';
+import API from './Rest';
+import Chat from './Chat';
+import PageController from './PageController';
 
-const domElmt = document.querySelector('.chat');
-
-const serverPath = 'wss://ahj-chat.herokuapp.com/';
-// const serverPath = 'ws://localhost:7070';
-
-const chat = new Chat(domElmt, serverPath);
-chat.init();
+const api = new API('https://websocke-heroku.herokuapp.com/contacts');
+const chat = new Chat(document.querySelector('.container'));
+const pageCtrl = new PageController(api, chat);
+pageCtrl.bindToDOM(document.querySelector('.container'));
+pageCtrl.init();

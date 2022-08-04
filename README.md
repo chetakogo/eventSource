@@ -1,4 +1,4 @@
 # webSocket
-https://chetakogo.github.io/http/
+https://chetakogo.github.io/eventSource/
 
-[![Build status](https://ci.appveyor.com/api/projects/status/4yw1vm359txe3wod?svg=true)](https://ci.appveyor.com/project/chetakogo/http)
+[![Build status](https://ci.appveyor.com/api/projects/status/f3m2hvl6pv8cflsq?svg=true)](https://ci.appveyor.com/project/chetakogo/eventsource)
