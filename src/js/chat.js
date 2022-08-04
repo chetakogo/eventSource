@@ -4,7 +4,7 @@ export default class Chat {
     this.activeId = null;
     this.name = null;
     this.active = null;
-    this.ws = new WebSocket('wss://sse-ws-chat-backend.herokuapp.com//ws');
+    this.ws = new WebSocket('wss://websocke-heroku.herokuapp.com//ws');
     this.idIvan = null;
   }
 
