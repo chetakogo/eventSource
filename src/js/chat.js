@@ -97,7 +97,7 @@ export default class Chat {
       }
 
       userEl.innerHTML = `<div class="login-status ${checked}"></div>`
-          + `                        <div class="login">${nickName}</div>`;
+            + `                        <div class="login">${nickName}</div>`;
       this.userList.append(userEl);
       const msglength = item.msg.length;
 
@@ -127,7 +127,7 @@ export default class Chat {
       messageEl.id = Date.parse(created);
       messageEl.classList.add('message', `${messageActive}`);
       messageEl.innerHTML = `<div class="message-time">${activeUser}, ${formated}</div>`
-          + `                 <div class="message-text">${message}</div>`;
+            + `                 <div class="message-text">${message}</div>`;
 
       this.chatArea.append(messageEl);
       messageEl.scrollIntoView(false);
