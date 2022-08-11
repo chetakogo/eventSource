@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 // import API from './Rest';
 // import Chat from './Chat';
 // import PageController from './PageController';
@@ -8,7 +9,7 @@
 // pageCtrl.bindToDOM(document.querySelector('.container'));
 // pageCtrl.init();
 import API from './Rest';
-import Chat from './Chat';
+import Chat from './chat';
 import PageController from './PageController';
 
 const api = new API('https://websocke-heroku.herokuapp.com/contacts');
